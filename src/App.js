@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { ButtonStyled, Container } from "./components";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>Hell ooo man 💀</h2>
+      <Container>
+        <ButtonStyled primary texto="soy el boton uno" />
+        <ButtonStyled secondary texto="yo soy secundario" />
+      </Container>
     </div>
   );
 }
