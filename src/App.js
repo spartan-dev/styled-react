@@ -1,14 +1,19 @@
 import "./App.css";
-import { ButtonStyled, Container } from "./components";
-
+import RootNavigation from "./RootNavigation";
+// import {useNavigate} from 'react-router-dom';
+// import {useDispatch,useSelector} from 'react-redux'
+// import {loginProcess} from './redux/UserDucks'
 function App() {
+  // para el login
+  // const navigate = useNavigate();
+  // const dispatch = useDispatch()
+  // const onSubmit =()=>{
+  //   //login
+  //   dispatch(loginProcess(hookState, navigate) )
+  // }
   return (
     <div className="App">
-      <h2>Hell ooo man 💀</h2>
-      <Container>
-        <ButtonStyled primary texto="soy el boton uno" />
-        <ButtonStyled secondary texto="yo soy secundario" />
-      </Container>
+      <RootNavigation/>
     </div>
   );
 }
