@@ -1,14 +1,10 @@
 import "./App.css";
 import { ButtonStyled, Container } from "./components";
-
+import RootNavigation from "./RootNavigation";
 function App() {
   return (
     <div className="App">
-      <h2>Hell ooo man 💀</h2>
-      <Container>
-        <ButtonStyled primary texto="soy el boton uno" />
-        <ButtonStyled secondary texto="yo soy secundario" />
-      </Container>
+      <RootNavigation />
     </div>
   );
 }

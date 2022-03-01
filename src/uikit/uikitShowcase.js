@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "../components/Button/Button.styled";
 import { ButtonStyled } from "./components";
 const uikitShowcase = () => {
   return (

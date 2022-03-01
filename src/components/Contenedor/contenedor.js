@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 const DivFashion = styled.div`
   padding: 10px 10px 10px 10px;
